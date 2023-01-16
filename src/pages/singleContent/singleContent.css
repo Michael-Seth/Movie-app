@@ -1,0 +1,138 @@
+
+
+.view-all-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-top: -50px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  
+    .view-all-container {
+      width: 100%;
+      margin: auto;
+      position: relative;
+    }
+
+    .movie-information {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+      }
+       
+      #display-title{
+        font-size: 7vw;
+        width: 250px;
+      }
+      
+      .movie-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+
+      .movie-img img {
+       margin-top: 10px;
+       max-height: 280px;
+       max-width: 180px;
+       height: 100%;
+       width: 100%;
+      }
+    
+      #overview-view {
+        position: relative;
+
+        width: 210px;
+        font-size: 13px;
+      }
+
+      .wrapper {
+          position: relative;
+          left: -200px;
+          margin-top: -40px;
+          margin-bottom: 100px;
+      }
+    
+      .video  {
+        width: 250px;
+        height: 150px;
+      }
+     
+      #cast-text {
+        margin-left: 140px;
+      }
+      
+      .wrapper button {
+        width: 50%;
+      }
+    
+      .carousel-item {
+       display: none;
+      }
+    
+      .wrapper {
+        margin-left: 400px;
+        width: 70%;
+      }
+      .cast {
+        margin-left: 150px;
+      }
+    
+      .view-movie-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+      }
+
+      .cast {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        margin-top: -50px;
+        margin-left: 140px;
+    }
+
+    .menu-loader {
+      display: none;
+    }
+} 
+
+@media screen and (max-width: 600px) {
+
+  .parent {
+    max-width: 1px;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .categories h3 {
+    position: relative;
+    left: 20px;
+  }
+
+ 
+}
+
